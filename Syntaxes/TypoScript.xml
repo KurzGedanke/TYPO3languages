@@ -7,7 +7,7 @@
     </meta>
 
     <detectors>
-        <extension priority="1.0">typoscript</extension>
+        <extension priority="1.0">typoscript, tsconfig</extension>
     </detectors>
 
     <indentation>
