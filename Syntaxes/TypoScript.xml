@@ -38,12 +38,10 @@
     </comments>
 
     <injection>
-        <expression>^(mylang)$</expression>
+        <expression>^(typoscript)$</expression>
     </injection>
 
     <tree-sitter language="typoscript">
         <highlights path="highlights.scm" />
-        <folds path="folds.scm" />
-        <symbols path="symbols.scm" />
     </tree-sitter>
 </syntax>
