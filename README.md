@@ -35,7 +35,7 @@ typo3 currently supports the following features of Important Language:
 Support for:
 
 - Sit
-- Amet 
+- Amet
 
 is planned for a future update.
 
@@ -44,3 +44,7 @@ is planned for a future update.
 
 P.S. If you'd like, you can remove these comments before submitting your extension 😉
 -->
+
+### Accs
+
+Thanks very much to [Teddytrombone](https://github.com/Teddytrombone/tree-sitter-typoscript) for the typoscript tree-sitter!
