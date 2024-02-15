@@ -41,7 +41,7 @@
         <expression>^(mylang)$</expression>
     </injection>
 
-    <tree-sitter language="mylang">
+    <tree-sitter language="typoscript">
         <highlights path="highlights.scm" />
         <folds path="folds.scm" />
         <symbols path="symbols.scm" />

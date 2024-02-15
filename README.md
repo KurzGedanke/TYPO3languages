@@ -12,7 +12,7 @@ Let's get started!
 🎈 Include a brief description of the features your syntax extension provides. For example:
 -->
 
-**typo3** provides syntax highlighting and autocompletion for **An Important Language**.
+**Typo3Languages** provides syntax highlighting and autocompletion for TypoScript & TSConfig.
 
 <!--
 🎈 It can also be helpful to include a screenshot or GIF showing your extension in action:
@@ -22,29 +22,12 @@ Let's get started!
 
 ## Language Support
 
-<!--
-🎈 Whether your extension covers the entirety of a language's syntax or a subset, it can be helpful to describe that for users:
--->
+Typo3Languages currently supports the following features of Languages:
 
-typo3 currently supports the following features of Important Language:
-
-- Lorem
-- Ipsum
+- .typoscript
+- .tsconfig
 - Dolor
 
-Support for:
-
-- Sit
-- Amet
-
-is planned for a future update.
-
-<!--
-👋 That's it! Happy developing!
-
-P.S. If you'd like, you can remove these comments before submitting your extension 😉
--->
-
-### Accs
+### Acknowledgement
 
 Thanks very much to [Teddytrombone](https://github.com/Teddytrombone/tree-sitter-typoscript) for the typoscript tree-sitter!

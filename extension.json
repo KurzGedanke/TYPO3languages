@@ -1,6 +1,6 @@
 {
-    "identifier": "de.thorejahn.typo3",
-    "name": "typo3",
+    "identifier": "de.thorejahn.typo3languages",
+    "name": "Typo3Languages",
     "organization": "Thore Jahn",
     "description": "Lorem ipsum, dolor sit amet.",
     "version": "1.0",

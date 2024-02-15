@@ -1,0 +1,84 @@
+// MIT License
+//
+// Copyright (c) 2023 Teddytrombone
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+
+
+# Include setup
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/Helper/ContentElement.typoscript">
+<INCLUDE_TYPOSCRIPT: source='FILE:EXT:{$main_extension}/Configuration/TypoScript/Helper/ParseFunc.typoscript'>
+
+@import "EXT:fluid_styled_content"
+@import 'EXT:fluid_styled_content'
+
+foo := addToList(543,6754,3423, {$constant.test})
+foo := userdefined(bar())
+
+# Content element rendering
+tt_content {
+    stdWrap {
+        # @deprecated since v11: stWrap.editPanel. Will be removed with 12.
+        # Setup the edit panel for all content elements
+        editPanel = 1
+        editPanel {
+            allow = move, new, edit, hide, delete
+            label = %s
+            onlyCurrentPid = 1
+            previewBorder = 1
+            edit.displayRecord = 1
+        }
+    }
+
+    test = {$constant.test}
+}
+
+tt_content.media.test =< lib.contentElement
+tt_content.media.test {
+  hallo = welt
+}
+
+test (
+  Hallo Welt
+  Das ist {$eine} Konstante
+  Wie geht es dir
+)
+
+page = PAGE
+page {
+    10 = FLUIDTEMPLATE
+    10 {
+
+    }
+}
+
+[applicationContext matches "/^Development/"]
+page.10.1 = TEXT
+page.10.1.value = Test
+[else]
+page.10.1 >
+[global]
+
+[applicationContext matches "/^Development/"] AND [Condition]
+page.10.1 = TEXT
+page.10.1.value = Test
+
+[frontend.user.isLoggedIn == 1 || getTSFE().id == 75 && siteLanguage("title") == "English"]
+page.20 = TEXT
+[GLOBAL]
