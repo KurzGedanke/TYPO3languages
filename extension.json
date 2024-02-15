@@ -1,0 +1,8 @@
+{
+    "identifier": "de.thorejahn.typo3",
+    "name": "typo3",
+    "organization": "Thore Jahn",
+    "description": "Lorem ipsum, dolor sit amet.",
+    "version": "1.0",
+    "categories": ["languages"]
+}
