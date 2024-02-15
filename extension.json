@@ -3,7 +3,7 @@
     "name": "TYPO3Languages",
     "organization": "Thore Jahn",
     "description": "Syntax highlighting for TypoScript and tsconfig",
-    "version": "1.0",
+    "version": "1.0.1",
     "categories": ["languages"],
     "bugs": {
         "url": "https://github.com/KurzGedanke/TYPO3languages/issues",
