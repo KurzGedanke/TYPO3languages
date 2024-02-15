@@ -1,8 +1,8 @@
 {
     "identifier": "de.thorejahn.typo3languages",
-    "name": "Typo3Languages",
+    "name": "TYPO#3Languages",
     "organization": "Thore Jahn",
-    "description": "Lorem ipsum, dolor sit amet.",
+    "description": "Syntax highlighting for TypoScript and tsconfig",
     "version": "1.0",
     "categories": ["languages"]
 }
