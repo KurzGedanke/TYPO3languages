@@ -1,4 +1,4 @@
-**TYPO3Languages** provides syntax highlighting and autocompletion for TypoScript & TSConfig.
+**TYPO3Languages** provides syntax highlighting for TypoScript & TSConfig.
 
 ## Language Support
 
