@@ -4,5 +4,9 @@
     "organization": "Thore Jahn",
     "description": "Syntax highlighting for TypoScript and tsconfig",
     "version": "1.0",
-    "categories": ["languages"]
+    "categories": ["languages"],
+    "bugs": [
+        "url": "https://github.com/KurzGedanke/TYPO3languages/issues",
+        "email": "nova-extension@kurzgedanke.me"
+    ]
 }
