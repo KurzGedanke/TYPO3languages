@@ -1,8 +1,8 @@
-**TYPO3Languages** provides syntax highlighting for TypoScript & TSConfig.
+**TypoScript - TYPO3 Languages Syntax Highlight** provides syntax highlighting for TypoScript & TSConfig.
 
 ## Language Support
 
-TYPO3Languages currently supports the following features of Languages:
+TypoScript - TYPO3 Languages Syntax Highlight currently supports the following Languages:
 
 - .typoscript
 - .tsconfig

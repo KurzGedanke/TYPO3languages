@@ -1,12 +1,14 @@
 {
     "identifier": "de.thorejahn.typo3languages",
-    "name": "TYPO3Languages",
+    "name": "TypoScript - TYPO3 Languages Syntax Highlight",
     "organization": "Thore Jahn",
     "description": "Syntax highlighting for TypoScript and tsconfig",
     "version": "1.0.1",
     "categories": ["languages"],
     "bugs": {
-        "url": "https://github.com/KurzGedanke/TYPO3languages/issues",
-        "email": "nova-extension@kurzgedanke.me"
-    }
+        "url": "https://github.com/KurzGedanke/TYPO3languages/issues"
+    },
+    "repository": "https://github.com/KurzGedanke/TYPO3languages",
+    "license": "MIT",
+    "keywords": ["typo3", "typoscript", "tsconfig", "syntax", "highlight"],
 }
