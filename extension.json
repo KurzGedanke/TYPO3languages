@@ -10,5 +10,5 @@
     },
     "repository": "https://github.com/KurzGedanke/TYPO3languages",
     "license": "MIT",
-    "keywords": ["typo3", "typoscript", "tsconfig", "syntax", "highlight"],
+    "keywords": ["typo3", "typoscript", "tsconfig", "syntax", "highlight"]
 }
